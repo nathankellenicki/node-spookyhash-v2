@@ -1,4 +1,4 @@
-const SpookyHashV2 = require("./build/release/spookyhash-v2");
+const SpookyHashV2 = require(".");
 
 let testBuffer = Buffer.from([0xff, 0xff, 0xf3, 0xde, 0x00, 0xe5]);
 
